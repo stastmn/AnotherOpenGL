@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/main.cpp
+GL/glew.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/GL/glew.h
+GLFW/glfw3.h
+-
+iostream
+-
+
