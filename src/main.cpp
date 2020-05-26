@@ -4,6 +4,27 @@
 #include <fstream>
 #include <string>
 #include <sstream>
+#include "signal.h"
+#include <math.h>
+
+#define ASSERT(x) if(!(x)) raise(SIGTRAP);
+#define GLCall(x) GLClearError();\
+    x;\
+    ASSERT(GLLogCall(#x, __FILE__, __LINE__))
+
+
+static void GLClearError(){
+    while(glGetError() != GL_NO_ERROR);
+}
+
+static bool GLLogCall(const char* function, const char* file, int line){
+    while(GLenum error = glGetError()){
+        std::cout<< "[OpenGL Error] (" <<error<<"): "<<function<<" "<<file<<
+        ":"<<line<<std::endl;
+        return false;
+    }
+    return true;
+}
 
 struct ShaderProgramSource{
     std::string VertexSource;
@@ -48,6 +69,7 @@ static  unsigned int CompileShader(unsigned  int type, const std::string& source
     if(result == GL_FALSE){
         int lenght;
         glGetShaderiv(id,GL_INFO_LOG_LENGTH,&lenght);
+        //  alloca for initialize memory for message on stack. Yeah, it may blow up your program.
         char* message = (char*) alloca(sizeof(char ) * lenght);
         glGetShaderInfoLog(id,lenght,&lenght,message);
 
@@ -87,7 +109,7 @@ int main(void)
         return -1;
 
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
+    GLCall(window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL));
     if (!window)
     {
         glfwTerminate();
@@ -95,45 +117,63 @@ int main(void)
     }
 
     /* Make the window's context current */
-    glfwMakeContextCurrent(window);
+    GLCall(glfwMakeContextCurrent(window));
+
+    glfwSwapInterval(1);
 
     if(glewInit() == GLEW_OK){
         std::cout<< "GLEW initialize is ok!\n";
     }else std::cout<< "ERROR: GLEW initialize is NOT ok!\n";
     std::cout<< glGetString(GL_VERSION) << std::endl;
 
-    float positions[6]={
+    float positions[8]={
         -0.5f, -0.5f,
-         0.0f, 0.5f,
-         0.5f, -0.5f
+         0.5f, -0.5f,
+         0.5f, 0.5f,
+         -0.5f, 0.5f
     };
-    int indices[3]= {
-            0, 1 , 2
+    unsigned int indices[6]= {
+            0, 1 , 2,
+            2, 3, 0
     };
     unsigned int buffer;
-    glGenBuffers(1,&buffer);
-    glBindBuffer(GL_ARRAY_BUFFER,buffer);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(float) * 6,positions,GL_STATIC_DRAW);
+    GLCall(glGenBuffers(1,&buffer));
+    GLCall(glBindBuffer(GL_ARRAY_BUFFER,buffer));
+    GLCall(glBufferData(GL_ARRAY_BUFFER, sizeof(positions) ,positions,GL_STATIC_DRAW));
 
-    glEnableVertexAttribArray(0);
-    glVertexAttribPointer(0,2, GL_FLOAT,GL_FALSE,sizeof(float) * 2, 0);
+    GLCall(glEnableVertexAttribArray(0));
+    GLCall(glVertexAttribPointer(0,2, GL_FLOAT,GL_FALSE,sizeof(float) * 2, 0));
 
-    glBindBuffer(GL_ARRAY_BUFFER, 1);
+    unsigned int ibo;
+    GLCall(glGenBuffers(1,&ibo));
+    GLCall(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER,ibo));
+    GLCall(glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(unsigned int) * 6 ,indices,GL_STATIC_DRAW));
 
 
 
     ShaderProgramSource source = ParseShader("res/shaders/Basic.shader");
     unsigned int shader = CreateShader(source.VertexSource,source.FragmentSource);
-    glUseProgram(shader);
+    GLCall(glUseProgram(shader));
+
+    GLCall(unsigned  int location = glGetUniformLocation(shader,"u_Color"));
+    ASSERT(location != -1);
+    GLCall(glProgramUniform4f(shader,location,0.2,0.2,0.2,1.0 ));
+
     /* Loop until the user closes the window */
+    float r,g,b;float increment = 0;
     while (!glfwWindowShouldClose(window))
     {
         
         /* Render here */
-        glClear(GL_COLOR_BUFFER_BIT);
+        GLCall(glClear(GL_COLOR_BUFFER_BIT));
 
 
-        glDrawArrays(GL_TRIANGLES,0,3);
+        increment += 0.05;
+        r = sin(increment);
+        g = sin(increment);
+        b = cos(increment);
+        GLCall(glProgramUniform4f(shader,location,r,g,b,1.0 ));
+        GLCall(glDrawElements(GL_TRIANGLES, 6,GL_UNSIGNED_INT, nullptr));
 
 
         /* Swap front and back buffers */
