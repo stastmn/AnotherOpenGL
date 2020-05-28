@@ -6,6 +6,92 @@
 
 #IncludeRegexTransform: 
 
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/Debug.cpp
+Debug.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/Debug.h
+
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/Debug.h
+GL/glew.h
+-
+signal.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/signal.h
+iostream
+-
+
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/IndexBuffer.cpp
+IndexBuffer.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/IndexBuffer.h
+Debug.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/Debug.h
+
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/IndexBuffer.h
+
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/Renderer.cpp
+Renderer.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/Renderer.h
+iostream
+-
+
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/Renderer.h
+GL/glew.h
+-
+VertexArray.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexArray.h
+IndexBuffer.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/IndexBuffer.h
+Shader.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/Shader.h
+
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/Shader.cpp
+Shader.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/Shader.h
+iostream
+-
+fstream
+-
+sstream
+-
+Debug.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/Debug.h
+
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/Shader.h
+string
+-
+unordered_map
+-
+
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexArray.cpp
+VertexArray.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexArray.h
+Debug.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/Debug.h
+
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexArray.h
+VertexBuffer.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBuffer.h
+VertexBufferLayout.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBufferLayout.h
+
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBuffer.cpp
+VertexBuffer.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBuffer.h
+Debug.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/Debug.h
+
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBuffer.h
+
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBufferLayout.cpp
+VertexBufferLayout.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBufferLayout.h
+
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBufferLayout.h
+vector
+-
+GL/glew.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/GL/glew.h
+Debug.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/Debug.h
+
 /home/stas/jupyter/programming projects/AnotherOpenGL/src/main.cpp
 GL/glew.h
 /home/stas/jupyter/programming projects/AnotherOpenGL/src/GL/glew.h
@@ -13,14 +99,20 @@ GLFW/glfw3.h
 -
 iostream
 -
-fstream
--
-string
--
-sstream
--
 signal.h
 /home/stas/jupyter/programming projects/AnotherOpenGL/src/signal.h
 math.h
 -
+Renderer.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/Renderer.h
+Debug.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/Debug.h
+VertexBuffer.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBuffer.h
+IndexBuffer.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/IndexBuffer.h
+VertexArray.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexArray.h
+Shader.h
+/home/stas/jupyter/programming projects/AnotherOpenGL/src/Shader.h
 

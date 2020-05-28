@@ -84,6 +84,48 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/stas/jupyter/programming projects/AnotherOpenGL/src/Debug.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/jupyter/programming projects/AnotherOpenGL/src/Debug.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/jupyter/programming projects/AnotherOpenGL/src/IndexBuffer.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/jupyter/programming projects/AnotherOpenGL/src/IndexBuffer.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/jupyter/programming projects/AnotherOpenGL/src/Renderer.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/jupyter/programming projects/AnotherOpenGL/src/Renderer.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/jupyter/programming projects/AnotherOpenGL/src/Shader.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/jupyter/programming projects/AnotherOpenGL/src/Shader.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexArray.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexArray.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBuffer.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBuffer.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBufferLayout.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBufferLayout.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
 		<Unit filename="/home/stas/jupyter/programming projects/AnotherOpenGL/src/main.cpp">
 			<Option target="AnotherOpenGL"/>
 		</Unit>

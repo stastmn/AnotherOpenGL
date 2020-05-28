@@ -70,21 +70,126 @@ CMakeFiles/AnotherOpenGL.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnotherOpenGL.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stas/jupyter/programming projects/AnotherOpenGL/src/main.cpp" -o CMakeFiles/AnotherOpenGL.dir/src/main.cpp.s
 
+CMakeFiles/AnotherOpenGL.dir/src/Renderer.cpp.o: CMakeFiles/AnotherOpenGL.dir/flags.make
+CMakeFiles/AnotherOpenGL.dir/src/Renderer.cpp.o: ../src/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stas/jupyter/programming projects/AnotherOpenGL/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AnotherOpenGL.dir/src/Renderer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AnotherOpenGL.dir/src/Renderer.cpp.o -c "/home/stas/jupyter/programming projects/AnotherOpenGL/src/Renderer.cpp"
+
+CMakeFiles/AnotherOpenGL.dir/src/Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnotherOpenGL.dir/src/Renderer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stas/jupyter/programming projects/AnotherOpenGL/src/Renderer.cpp" > CMakeFiles/AnotherOpenGL.dir/src/Renderer.cpp.i
+
+CMakeFiles/AnotherOpenGL.dir/src/Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnotherOpenGL.dir/src/Renderer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stas/jupyter/programming projects/AnotherOpenGL/src/Renderer.cpp" -o CMakeFiles/AnotherOpenGL.dir/src/Renderer.cpp.s
+
+CMakeFiles/AnotherOpenGL.dir/src/VertexBuffer.cpp.o: CMakeFiles/AnotherOpenGL.dir/flags.make
+CMakeFiles/AnotherOpenGL.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stas/jupyter/programming projects/AnotherOpenGL/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AnotherOpenGL.dir/src/VertexBuffer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AnotherOpenGL.dir/src/VertexBuffer.cpp.o -c "/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBuffer.cpp"
+
+CMakeFiles/AnotherOpenGL.dir/src/VertexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnotherOpenGL.dir/src/VertexBuffer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBuffer.cpp" > CMakeFiles/AnotherOpenGL.dir/src/VertexBuffer.cpp.i
+
+CMakeFiles/AnotherOpenGL.dir/src/VertexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnotherOpenGL.dir/src/VertexBuffer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBuffer.cpp" -o CMakeFiles/AnotherOpenGL.dir/src/VertexBuffer.cpp.s
+
+CMakeFiles/AnotherOpenGL.dir/src/IndexBuffer.cpp.o: CMakeFiles/AnotherOpenGL.dir/flags.make
+CMakeFiles/AnotherOpenGL.dir/src/IndexBuffer.cpp.o: ../src/IndexBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stas/jupyter/programming projects/AnotherOpenGL/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AnotherOpenGL.dir/src/IndexBuffer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AnotherOpenGL.dir/src/IndexBuffer.cpp.o -c "/home/stas/jupyter/programming projects/AnotherOpenGL/src/IndexBuffer.cpp"
+
+CMakeFiles/AnotherOpenGL.dir/src/IndexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnotherOpenGL.dir/src/IndexBuffer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stas/jupyter/programming projects/AnotherOpenGL/src/IndexBuffer.cpp" > CMakeFiles/AnotherOpenGL.dir/src/IndexBuffer.cpp.i
+
+CMakeFiles/AnotherOpenGL.dir/src/IndexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnotherOpenGL.dir/src/IndexBuffer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stas/jupyter/programming projects/AnotherOpenGL/src/IndexBuffer.cpp" -o CMakeFiles/AnotherOpenGL.dir/src/IndexBuffer.cpp.s
+
+CMakeFiles/AnotherOpenGL.dir/src/VertexBufferLayout.cpp.o: CMakeFiles/AnotherOpenGL.dir/flags.make
+CMakeFiles/AnotherOpenGL.dir/src/VertexBufferLayout.cpp.o: ../src/VertexBufferLayout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stas/jupyter/programming projects/AnotherOpenGL/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AnotherOpenGL.dir/src/VertexBufferLayout.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AnotherOpenGL.dir/src/VertexBufferLayout.cpp.o -c "/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBufferLayout.cpp"
+
+CMakeFiles/AnotherOpenGL.dir/src/VertexBufferLayout.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnotherOpenGL.dir/src/VertexBufferLayout.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBufferLayout.cpp" > CMakeFiles/AnotherOpenGL.dir/src/VertexBufferLayout.cpp.i
+
+CMakeFiles/AnotherOpenGL.dir/src/VertexBufferLayout.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnotherOpenGL.dir/src/VertexBufferLayout.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBufferLayout.cpp" -o CMakeFiles/AnotherOpenGL.dir/src/VertexBufferLayout.cpp.s
+
+CMakeFiles/AnotherOpenGL.dir/src/VertexArray.cpp.o: CMakeFiles/AnotherOpenGL.dir/flags.make
+CMakeFiles/AnotherOpenGL.dir/src/VertexArray.cpp.o: ../src/VertexArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stas/jupyter/programming projects/AnotherOpenGL/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AnotherOpenGL.dir/src/VertexArray.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AnotherOpenGL.dir/src/VertexArray.cpp.o -c "/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexArray.cpp"
+
+CMakeFiles/AnotherOpenGL.dir/src/VertexArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnotherOpenGL.dir/src/VertexArray.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexArray.cpp" > CMakeFiles/AnotherOpenGL.dir/src/VertexArray.cpp.i
+
+CMakeFiles/AnotherOpenGL.dir/src/VertexArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnotherOpenGL.dir/src/VertexArray.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexArray.cpp" -o CMakeFiles/AnotherOpenGL.dir/src/VertexArray.cpp.s
+
+CMakeFiles/AnotherOpenGL.dir/src/Shader.cpp.o: CMakeFiles/AnotherOpenGL.dir/flags.make
+CMakeFiles/AnotherOpenGL.dir/src/Shader.cpp.o: ../src/Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stas/jupyter/programming projects/AnotherOpenGL/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AnotherOpenGL.dir/src/Shader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AnotherOpenGL.dir/src/Shader.cpp.o -c "/home/stas/jupyter/programming projects/AnotherOpenGL/src/Shader.cpp"
+
+CMakeFiles/AnotherOpenGL.dir/src/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnotherOpenGL.dir/src/Shader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stas/jupyter/programming projects/AnotherOpenGL/src/Shader.cpp" > CMakeFiles/AnotherOpenGL.dir/src/Shader.cpp.i
+
+CMakeFiles/AnotherOpenGL.dir/src/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnotherOpenGL.dir/src/Shader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stas/jupyter/programming projects/AnotherOpenGL/src/Shader.cpp" -o CMakeFiles/AnotherOpenGL.dir/src/Shader.cpp.s
+
+CMakeFiles/AnotherOpenGL.dir/src/Debug.cpp.o: CMakeFiles/AnotherOpenGL.dir/flags.make
+CMakeFiles/AnotherOpenGL.dir/src/Debug.cpp.o: ../src/Debug.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stas/jupyter/programming projects/AnotherOpenGL/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/AnotherOpenGL.dir/src/Debug.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AnotherOpenGL.dir/src/Debug.cpp.o -c "/home/stas/jupyter/programming projects/AnotherOpenGL/src/Debug.cpp"
+
+CMakeFiles/AnotherOpenGL.dir/src/Debug.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnotherOpenGL.dir/src/Debug.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stas/jupyter/programming projects/AnotherOpenGL/src/Debug.cpp" > CMakeFiles/AnotherOpenGL.dir/src/Debug.cpp.i
+
+CMakeFiles/AnotherOpenGL.dir/src/Debug.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnotherOpenGL.dir/src/Debug.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stas/jupyter/programming projects/AnotherOpenGL/src/Debug.cpp" -o CMakeFiles/AnotherOpenGL.dir/src/Debug.cpp.s
+
 # Object files for target AnotherOpenGL
 AnotherOpenGL_OBJECTS = \
-"CMakeFiles/AnotherOpenGL.dir/src/main.cpp.o"
+"CMakeFiles/AnotherOpenGL.dir/src/main.cpp.o" \
+"CMakeFiles/AnotherOpenGL.dir/src/Renderer.cpp.o" \
+"CMakeFiles/AnotherOpenGL.dir/src/VertexBuffer.cpp.o" \
+"CMakeFiles/AnotherOpenGL.dir/src/IndexBuffer.cpp.o" \
+"CMakeFiles/AnotherOpenGL.dir/src/VertexBufferLayout.cpp.o" \
+"CMakeFiles/AnotherOpenGL.dir/src/VertexArray.cpp.o" \
+"CMakeFiles/AnotherOpenGL.dir/src/Shader.cpp.o" \
+"CMakeFiles/AnotherOpenGL.dir/src/Debug.cpp.o"
 
 # External object files for target AnotherOpenGL
 AnotherOpenGL_EXTERNAL_OBJECTS =
 
 AnotherOpenGL: CMakeFiles/AnotherOpenGL.dir/src/main.cpp.o
+AnotherOpenGL: CMakeFiles/AnotherOpenGL.dir/src/Renderer.cpp.o
+AnotherOpenGL: CMakeFiles/AnotherOpenGL.dir/src/VertexBuffer.cpp.o
+AnotherOpenGL: CMakeFiles/AnotherOpenGL.dir/src/IndexBuffer.cpp.o
+AnotherOpenGL: CMakeFiles/AnotherOpenGL.dir/src/VertexBufferLayout.cpp.o
+AnotherOpenGL: CMakeFiles/AnotherOpenGL.dir/src/VertexArray.cpp.o
+AnotherOpenGL: CMakeFiles/AnotherOpenGL.dir/src/Shader.cpp.o
+AnotherOpenGL: CMakeFiles/AnotherOpenGL.dir/src/Debug.cpp.o
 AnotherOpenGL: CMakeFiles/AnotherOpenGL.dir/build.make
 AnotherOpenGL: /usr/local/lib/libglfw3.a
 AnotherOpenGL: /usr/lib/x86_64-linux-gnu/librt.so
 AnotherOpenGL: /usr/lib/x86_64-linux-gnu/libm.so
 AnotherOpenGL: /usr/lib/x86_64-linux-gnu/libX11.so
 AnotherOpenGL: CMakeFiles/AnotherOpenGL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/stas/jupyter/programming projects/AnotherOpenGL/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AnotherOpenGL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/stas/jupyter/programming projects/AnotherOpenGL/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable AnotherOpenGL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AnotherOpenGL.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
