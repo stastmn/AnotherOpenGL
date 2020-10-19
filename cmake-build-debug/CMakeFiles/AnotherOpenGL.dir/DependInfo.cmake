@@ -8,10 +8,12 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/stas/jupyter/programming projects/AnotherOpenGL/src/IndexBuffer.cpp" "/home/stas/jupyter/programming projects/AnotherOpenGL/cmake-build-debug/CMakeFiles/AnotherOpenGL.dir/src/IndexBuffer.cpp.o"
   "/home/stas/jupyter/programming projects/AnotherOpenGL/src/Renderer.cpp" "/home/stas/jupyter/programming projects/AnotherOpenGL/cmake-build-debug/CMakeFiles/AnotherOpenGL.dir/src/Renderer.cpp.o"
   "/home/stas/jupyter/programming projects/AnotherOpenGL/src/Shader.cpp" "/home/stas/jupyter/programming projects/AnotherOpenGL/cmake-build-debug/CMakeFiles/AnotherOpenGL.dir/src/Shader.cpp.o"
+  "/home/stas/jupyter/programming projects/AnotherOpenGL/src/Texture.cpp" "/home/stas/jupyter/programming projects/AnotherOpenGL/cmake-build-debug/CMakeFiles/AnotherOpenGL.dir/src/Texture.cpp.o"
   "/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexArray.cpp" "/home/stas/jupyter/programming projects/AnotherOpenGL/cmake-build-debug/CMakeFiles/AnotherOpenGL.dir/src/VertexArray.cpp.o"
   "/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBuffer.cpp" "/home/stas/jupyter/programming projects/AnotherOpenGL/cmake-build-debug/CMakeFiles/AnotherOpenGL.dir/src/VertexBuffer.cpp.o"
   "/home/stas/jupyter/programming projects/AnotherOpenGL/src/VertexBufferLayout.cpp" "/home/stas/jupyter/programming projects/AnotherOpenGL/cmake-build-debug/CMakeFiles/AnotherOpenGL.dir/src/VertexBufferLayout.cpp.o"
   "/home/stas/jupyter/programming projects/AnotherOpenGL/src/main.cpp" "/home/stas/jupyter/programming projects/AnotherOpenGL/cmake-build-debug/CMakeFiles/AnotherOpenGL.dir/src/main.cpp.o"
+  "/home/stas/jupyter/programming projects/AnotherOpenGL/src/vendor/stb_image/stb_image.cpp" "/home/stas/jupyter/programming projects/AnotherOpenGL/cmake-build-debug/CMakeFiles/AnotherOpenGL.dir/src/vendor/stb_image/stb_image.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

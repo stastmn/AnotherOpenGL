@@ -5,10 +5,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/AnotherOpenGL.dir/src/IndexBuffer.cpp.o"
   "CMakeFiles/AnotherOpenGL.dir/src/Renderer.cpp.o"
   "CMakeFiles/AnotherOpenGL.dir/src/Shader.cpp.o"
+  "CMakeFiles/AnotherOpenGL.dir/src/Texture.cpp.o"
   "CMakeFiles/AnotherOpenGL.dir/src/VertexArray.cpp.o"
   "CMakeFiles/AnotherOpenGL.dir/src/VertexBuffer.cpp.o"
   "CMakeFiles/AnotherOpenGL.dir/src/VertexBufferLayout.cpp.o"
   "CMakeFiles/AnotherOpenGL.dir/src/main.cpp.o"
+  "CMakeFiles/AnotherOpenGL.dir/src/vendor/stb_image/stb_image.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.
