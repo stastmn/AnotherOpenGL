@@ -1,0 +1,184 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/Debug.h
+GL/glew.h
+-
+signal.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/signal.h
+iostream
+-
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/IndexBuffer.h
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/Renderer.cpp
+Renderer.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/Renderer.h
+iostream
+-
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/Renderer.h
+GL/glew.h
+-
+VertexArray.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/VertexArray.h
+IndexBuffer.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/IndexBuffer.h
+Shader.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/Shader.h
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/Shader.cpp
+Shader.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/Shader.h
+iostream
+-
+fstream
+-
+sstream
+-
+Debug.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/Debug.h
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/Shader.h
+string
+-
+unordered_map
+-
+glm/glm.hpp
+/home/stas/coding/programming projects/AnotherOpenGL/src/glm/glm.hpp
+unordered_map
+/home/stas/coding/programming projects/AnotherOpenGL/src/unordered_map
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/Test.h
+Debug.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/Debug.h
+vendor/imgui/imgui.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui.h
+string
+-
+vector
+-
+functional
+-
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/TestClearColor.h
+Test.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/Test.h
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/TestTexture2D.cpp
+TestTexture2D.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/TestTexture2D.h
+vendor/imgui/imgui.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui.h
+glm/glm.hpp
+/home/stas/coding/programming projects/AnotherOpenGL/src/glm/glm.hpp
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/TestTexture2D.h
+Test.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/Test.h
+glm/glm.hpp
+/home/stas/coding/programming projects/AnotherOpenGL/src/glm/glm.hpp
+glm/gtc/matrix_transform.hpp
+/home/stas/coding/programming projects/AnotherOpenGL/src/glm/gtc/matrix_transform.hpp
+Renderer.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/Renderer.h
+Texture.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/Texture.h
+memory
+/home/stas/coding/programming projects/AnotherOpenGL/src/memory
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/Texture.h
+string
+-
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/VertexArray.h
+VertexBuffer.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/VertexBuffer.h
+VertexBufferLayout.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/VertexBufferLayout.h
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/VertexBuffer.h
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/VertexBufferLayout.h
+vector
+-
+GL/glew.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/GL/glew.h
+Debug.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/Debug.h
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/main.cpp
+GL/glew.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/GL/glew.h
+GLFW/glfw3.h
+-
+iostream
+-
+signal.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/signal.h
+math.h
+-
+Renderer.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/Renderer.h
+Debug.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/Debug.h
+VertexBuffer.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/VertexBuffer.h
+IndexBuffer.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/IndexBuffer.h
+VertexArray.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/VertexArray.h
+Shader.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/Shader.h
+Texture.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/Texture.h
+glm/glm.hpp
+/home/stas/coding/programming projects/AnotherOpenGL/src/glm/glm.hpp
+glm/gtc/matrix_transform.hpp
+/home/stas/coding/programming projects/AnotherOpenGL/src/glm/gtc/matrix_transform.hpp
+vendor/imgui/imgui.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui.h
+vendor/imgui/imgui_impl_glfw.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui_impl_glfw.h
+vendor/imgui/imgui_impl_opengl3.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui_impl_opengl3.h
+TestClearColor.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/TestClearColor.h
+TestTexture2D.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/TestTexture2D.h
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imconfig.h
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui.h
+imconfig.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imconfig.h
+float.h
+-
+stdarg.h
+-
+stddef.h
+-
+string.h
+-
+assert.h
+-
+stdint.h
+-
+imgui_user.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui_user.h
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui_impl_glfw.h
+imgui.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui.h
+
+/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui_impl_opengl3.h
+imgui.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui.h
+TargetConditionals.h
+/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/TargetConditionals.h
+

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AnotherOpenGL"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\glfw3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/stas/coding/programming projects/AnotherOpenGL"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/stas/coding/programming projects/AnotherOpenGL"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/stas/coding/programming projects/AnotherOpenGL"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AnotherOpenGL">
+				<Option output="/home/stas/coding/programming projects/AnotherOpenGL/AnotherOpenGL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stas/coding/programming projects/AnotherOpenGL"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 AnotherOpenGL"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AnotherOpenGL/fast">
+				<Option output="/home/stas/coding/programming projects/AnotherOpenGL/AnotherOpenGL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stas/coding/programming projects/AnotherOpenGL"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 AnotherOpenGL/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/stas/coding/programming\ projects/AnotherOpenGL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/Debug.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/Debug.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/IndexBuffer.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/IndexBuffer.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/Renderer.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/Renderer.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/Shader.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/Shader.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/Test.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/Test.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/TestClearColor.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/TestClearColor.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/TestTexture2D.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/TestTexture2D.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/Texture.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/Texture.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/VertexArray.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/VertexArray.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/VertexBuffer.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/VertexBuffer.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/VertexBufferLayout.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/VertexBufferLayout.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/main.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imconfig.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui_demo.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui_draw.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui_impl_glfw.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui_impl_glfw.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui_impl_opengl3.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui_impl_opengl3.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui_internal.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imgui_widgets.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imstb_rectpack.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imstb_textedit.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/imgui/imstb_truetype.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/stb_image/stb_image.cpp">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/src/vendor/stb_image/stb_image.h">
+			<Option target="AnotherOpenGL"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/../../../../../usr/local/lib/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/../../../../../usr/local/lib/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/../../../../../usr/local/lib/cmake/glfw3/glfw3Targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/stas/coding/programming projects/AnotherOpenGL/../../../../../usr/local/lib/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

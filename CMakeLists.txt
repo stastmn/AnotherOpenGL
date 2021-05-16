@@ -15,7 +15,7 @@ add_executable(AnotherOpenGL src/main.cpp src/Renderer.cpp src/Renderer.h src/Ve
         src/vendor/imgui/imconfig.h src/vendor/imgui/imgui.cpp src/vendor/imgui/imgui.h src/vendor/imgui/imgui_demo.cpp src/vendor/imgui/imgui_draw.cpp
         src/vendor/imgui/imgui_impl_glfw.cpp src/vendor/imgui/imgui_impl_glfw.h src/vendor/imgui/imgui_impl_opengl3.cpp src/vendor/imgui/imgui_impl_opengl3.h
         src/vendor/imgui/imgui_internal.h src/vendor/imgui/imgui_widgets.cpp src/vendor/imgui/imstb_rectpack.h src/vendor/imgui/imstb_textedit.h src/vendor/imgui/imstb_truetype.h
-        src/Test.h src/TestClearColor.cpp src/TestClearColor.h)
+        src/Test.h src/TestClearColor.cpp src/TestClearColor.h src/TestTexture2D.cpp src/TestTexture2D.h src/Test.cpp)
 
 
 
